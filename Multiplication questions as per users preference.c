@@ -5,7 +5,6 @@ questions he want and how many digits of numbers in it*/
 int main()
 {
     int i,num,a,b,c;
-    srand(time(0)); 
     printf ("How many multiplication questions you want?: ");
     scanf("%d",&b);
     printf("and How many digit numbers in it? :");
