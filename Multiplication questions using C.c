@@ -3,8 +3,7 @@
 #include <stdlib.h>
 int main()
 {
-    int i, num,a;
-    srand(time(0)); 
+    int i, num,a; 
     printf ("\tPrint 20 Multiplication Questions ! \n");
     for (i = 1; i <= 20; i++)
     {
