@@ -9,7 +9,7 @@ int main()
     scanf("%d",&b);
     printf("and How many digit numbers in it? :");
     scanf("%d",&c);
-    //We only allows upto 4digit numbers so the default to set if user enter above 4
+    //Only allows upto 4digit numbers so the default to set if loop below
     if (c>=5)
       {
         printf("Enter a choice less than 5");
@@ -24,10 +24,7 @@ int main()
          num= rand() % 10; 
          a= rand()%10+1;
           { 
-            if (num<10){if(a<10)
-            {
-               printf ("\n%d.%d*%d = ?\n ",i,num, a);
-            }}
+             printf ("\n%d.%d*%d = ?\n ",i,num, a);
           }    
         break;
      case 2:
