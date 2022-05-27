@@ -1,3 +1,7 @@
 <h1> C Programs to construct different Mathematical Questions</h1>
-*This is repository consist of simple functions such as*<br/>
-**Addition or Subtraction problems creator function, Division problem creator function and Multiplication problem creator function**
+These are written to practice C program from the base.
+<h2>This repository consist of simple functions such as<h2>
+  <br/>
+-Addition or Subtraction problems creator function<br/>
+-Division problem creator function<br/>
+-Multiplication problem creator function
