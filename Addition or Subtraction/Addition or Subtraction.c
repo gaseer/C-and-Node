@@ -1,4 +1,4 @@
-/*Program to print Addition or Substraction questions with features- User can select which kind of question he wants (addition or substraction)
+/*Program to print Addition or Subtraction questions with features- User can select which kind of question he wants (addition or substraction)
 How many number of questions and also how many digits in that question*/
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,8 +7,8 @@ int main()
 {
     char a;
     int b, c, d, e, i;
-    printf("\tProgram to create Addition or Substraction Questions\n\n");
-    printf("Do you want addition or substraction Ques? (press + or -) : ");
+    printf("\tProgram to create Addition or Subtraction Questions\n\n");
+    printf("Do you want addition or subtraction Ques? (press + or -) : ");
     scanf("%c", &a);
     printf("You pressed \"%c\" \nHow many Questions you want for \"%c\" operation?  :", a, a);
     scanf("%d", &b);
