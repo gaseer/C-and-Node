@@ -29,8 +29,8 @@ int main()
         break;
      case 2:
          //prints multiplication of 2 digit numbers
-         num= rand() % 100; 
-         a= rand()%100+1;
+         num= rand() % 80; 
+         a= rand()% 90;
           { 
             if (num>10){if(a>10)
             {
@@ -40,8 +40,8 @@ int main()
         break;
      case 3:
          //prints multiplication of 3 digit numbers
-         num= rand() % 1000; 
-         a= rand()%1000+1;
+         num= rand() % 800; 
+         a= rand()%900;
             { 
               if (num>99){if(a>99)
              {
@@ -51,8 +51,8 @@ int main()
         break;
      case 4:
          //prints multiplication of 4 digit numbers
-         num= rand() % 10000; 
-         a= rand()%10000+1;
+         num= rand() % 8000; 
+         a= rand()%9000;
            { 
               if (num>999){if(a>999)
               {
