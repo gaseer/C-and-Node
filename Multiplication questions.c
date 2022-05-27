@@ -5,9 +5,9 @@ questions he want and how many digits of numbers in it*/
 int main()
 {
     int i,num,a,b,c;
-    printf ("How many multiplication questions you want?: ");
+    printf ("How many multiplication questions you need ? : ");
     scanf("%d",&b);
-    printf("and How many digit numbers in it? :");
+    printf("and how many digit numbers in that questions? :");
     scanf("%d",&c);
     //Only allows upto 4digit numbers so the default to set if loop below
     if (c>=5)
