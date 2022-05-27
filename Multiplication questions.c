@@ -7,7 +7,7 @@ int main()
     int i,num,a,b,c;
     printf ("How many multiplication questions you need ? : ");
     scanf("%d",&b);
-    printf("and how many digit numbers in that questions? :");
+    printf("and how many digit numbers in that questions? : ");
     scanf("%d",&c);
     //Only allows upto 4digit numbers so the default to set if loop below
     if (c>=5)
@@ -24,7 +24,7 @@ int main()
          num= rand() % 10; 
          a= rand()%10+1;
           { 
-             printf ("\n%d.%d*%d = ?\n ",i,num, a);
+             printf ("\n%d.%d*%d = ?",i,num, a);
           }    
         break;
      case 2:
@@ -34,7 +34,7 @@ int main()
           { 
             if (num>10){if(a>10)
             {
-               printf ("\n%d.%d*%d = ?\n ",i,num, a);
+               printf ("\n%d.%d*%d = ?",i,num, a);
             }}
           }    
         break;
@@ -45,7 +45,7 @@ int main()
             { 
               if (num>99){if(a>99)
              {
-              printf ("\n%d.%d*%d = ?\n ",i,num, a);
+              printf ("\n%d.%d*%d = ?",i,num, a);
              }}
          }    
         break;
@@ -56,7 +56,7 @@ int main()
            { 
               if (num>999){if(a>999)
               {
-                 printf ("\n%d.%d*%d = ?\n ",i,num, a);
+                 printf ("\n%d.%d*%d = ?",i,num, a);
               }}
            }    
         break;
