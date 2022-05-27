@@ -1,7 +1,7 @@
-//Only created a basic Google test Structure...Not started the testing process
+//Starting to Test using Google test
 #include <gtest/gtest.h>
 #define TESTING
-//int ;
+/*int ;
 int main()
 {
 	//return;
@@ -17,3 +17,4 @@ class MyAppTestSuite : public testing::Test
 TEST_F() {
     EXPECT_EQ(, ());
 }
+*/
