@@ -1,6 +1,4 @@
 //Addition or Substraction questions
-function addSub
-{
  let a,b;
  const prompt = require('prompt-sync')({sigint: true});
 
@@ -62,7 +60,4 @@ function addSub
       }
     break;
   }
- }
 }
-
-module.exports = addSub;
