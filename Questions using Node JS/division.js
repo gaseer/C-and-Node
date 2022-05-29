@@ -1,6 +1,4 @@
 //Divisiom questions
-function divQues()
-{
 let a,b=2;
 const prompt = require('prompt-sync')({sigint: true});
 
@@ -31,7 +29,6 @@ if(ques>3) { console.log(" Enter a number less than 4 ");}
     console.log('\n%i. %i/%i = ?',i,a,b);
     break;
   }
- }
 }
 
-module.exports = {divQues}
+
