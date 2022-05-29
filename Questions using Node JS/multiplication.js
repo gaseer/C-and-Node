@@ -1,6 +1,5 @@
 //Multiplication questions
-function multiply()
-{
+
  let a,b;
  const prompt = require('prompt-sync')({sigint: true});
 
@@ -9,8 +8,8 @@ function multiply()
  let ques = prompt("and how many digits in it : ");
  if(ques>3) { console.log(" Enter a number less than 4 ");}
 
- for(let i=1;i<=num;i++)
- {
+for(let i=1;i<=num;i++)
+{
   switch(ques)
   {
     case '1':
@@ -33,4 +32,4 @@ function multiply()
   }
  }
 }
-module.exports = multiply;
+
