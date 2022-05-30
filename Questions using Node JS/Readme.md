@@ -1,2 +1,6 @@
 <h1> This folder consist of Functions with nodejs for creating questions</h1>
-<h2>These are created to give different types of mathematical problems</h2>
+<h2>To run this project keep reeading the guidelines given below</h2>
+<i>-Install node js from its official site https://nodejs.org/en/
+  -Now go for the Node Package Module by entering --> npm install 
+  -We use Jest for testing node modules. Install Jest framework by --> npm install --save-dev jest
+  -After installing Jest change the script in json file to --> "test":"jest"
