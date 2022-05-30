@@ -1,4 +1,4 @@
-//const {} = require ('./division');
+//const {} = require ('../division');
 
 /*test('test 1', () => {
     const ques = 4;
