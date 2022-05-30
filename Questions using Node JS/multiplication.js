@@ -3,9 +3,9 @@
  let a,b;
  const prompt = require('prompt-sync')({sigint: true});
 
- let num = prompt('Enter how many Multiplication questions you want : ');
+ const num = prompt('Enter how many Multiplication questions you want : ');
 
- let ques = prompt("and how many digits in it : ");
+ const ques = prompt("and how many digits in it : ");
  if(ques>3) { console.log(" Enter a number less than 4 ");}
 
 for(let i=1;i<=num;i++)
