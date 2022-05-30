@@ -3,4 +3,4 @@
 <i>-Install node js from its official site https://nodejs.org/en/ <br/>
   -Now go for the Node Package Module by entering --> npm install <br/>
   -We use Jest for testing node modules. Install Jest framework by --> npm install --save-dev jest<br/>
-  -After installing Jest change the script in json file to --> "test":"jest"<br/>
+  -After installing Jest change the script in json file to --> "test":"jest --coverage"<br/>
